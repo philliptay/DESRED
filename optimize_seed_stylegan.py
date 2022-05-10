@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/home/phillipt/stylegan3/')
+sys.path.append('stylegan3/')
 import os
 import re
 from typing import List, Optional, Tuple, Union
