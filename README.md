@@ -7,11 +7,17 @@ Abstract: *The task of explorable super resolution (ESR) reconstructs multiple p
 ## Requirements
 StyleGAN3. Follow installation and environment setup instructions in https://github.com/NVlabs/stylegan3/.
 
-LPIPS - perceptual similarity metric
+LPIPS - perceptual similarity metric:
+
 `pip install lpips` or from source: https://github.com/richzhang/PerceptualSimilarity
 
 ## Usage
+`git clone https://github.com/philliptay/DESRED.git`
 
+`cd DESRED`
+
+Sample run command:
+`python optimize_seed_stylegan.py  --network=https://api.ngc.nvidia.com/v2/models/nvidia/research/stylegan3/versions/1/files/stylegan3-r-ffhq-1024x1024.pkl --outdir=out/ --LRnum=50 --HRperLR=7`
 
 
 
